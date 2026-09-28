@@ -1,0 +1,22 @@
+{
+  "species": [
+    { "id": "cat", "name": "Котёнок" },
+    { "id": "dog", "name": "Щенок" },
+    { "id": "dragon", "name": "Дракончик" }
+  ],
+  "colors": [
+    { "id": "sun", "name": "Солнечный", "body": "#FFB45C", "belly": "#FFE6C2", "line": "#B8641A" },
+    { "id": "mint", "name": "Мятный", "body": "#7ED4B2", "belly": "#DAF6EA", "line": "#2F8A66" },
+    { "id": "sky", "name": "Небесный", "body": "#8DC3FA", "belly": "#E0EFFF", "line": "#3C78B8" },
+    { "id": "lilac", "name": "Сиреневый", "body": "#C4A8F0", "belly": "#EFE6FF", "line": "#7552B0" }
+  ],
+  "genders": [
+    { "id": "boy", "name": "Мальчик" },
+    { "id": "girl", "name": "Девочка" }
+  ],
+  "patterns": [
+    { "id": "plain", "name": "Гладкий" },
+    { "id": "spots", "name": "С пятнышками" }
+  ],
+  "petNames": ["Финни", "Бублик", "Искра", "Пончик", "Луна", "Шустрик"]
+}

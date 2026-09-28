@@ -1,0 +1,20 @@
+node_modules/
+dist/
+
+# ключи подписи и пароли не храним в репозитории
+signing/
+*.jks
+*.keystore
+keystore.properties
+
+# android build
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/capacitor-cordova-android-plugins/build/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+.idea/
+*.iml

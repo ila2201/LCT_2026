@@ -1,0 +1,15 @@
+[
+  { "id": "food-box", "kind": "need", "need": "food", "icon": "🥣", "name": "Корм на неделю", "price": 30, "effect": { "food": 45 } },
+  { "id": "food-veg", "kind": "need", "need": "food", "icon": "🥕", "name": "Морковка и яблоки", "price": 15, "effect": { "food": 20 } },
+  { "id": "bath", "kind": "need", "need": "care", "icon": "🛁", "name": "Купание с шампунем", "price": 20, "effect": { "care": 40 } },
+  { "id": "haircut", "kind": "need", "need": "care", "icon": "✂️", "name": "Стрижка шёрстки", "price": 15, "effect": { "care": 30 } },
+  { "id": "bed", "kind": "need", "need": "care", "icon": "🛏️", "name": "Чистая лежанка", "price": 10, "effect": { "care": 20 } },
+
+  { "id": "ball", "kind": "want", "icon": "⚽", "name": "Мячик", "price": 20, "effect": { "joy": 20 }, "toy": "ball" },
+  { "id": "paints", "kind": "want", "icon": "🎨", "name": "Набор красок", "price": 40, "effect": { "joy": 35 }, "toy": "paints" },
+  { "id": "train", "kind": "want", "icon": "🚂", "name": "Игрушечный паровозик", "price": 35, "effect": { "joy": 30 }, "toy": "train" },
+  { "id": "candy", "kind": "want", "icon": "🍭", "name": "Леденец", "price": 10, "effect": { "joy": 10, "food": 5 }, "note": "Сладкое – это «хочу», а не еда" },
+  { "id": "bow", "kind": "want", "icon": "🎀", "name": "Бантик", "price": 25, "effect": { "joy": 15 }, "wear": "bow" },
+  { "id": "glasses", "kind": "want", "icon": "🕶️", "name": "Солнечные очки", "price": 30, "effect": { "joy": 15 }, "wear": "glasses" },
+  { "id": "scarf", "kind": "want", "icon": "🧣", "name": "Шарфик", "price": 25, "effect": { "joy": 15 }, "wear": "scarf" }
+]

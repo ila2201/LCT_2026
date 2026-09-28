@@ -1,0 +1,27 @@
+{
+  "income": 100,
+  "planStep": 5,
+  "startStats": { "food": 60, "care": 60, "joy": 70 },
+  "weeklyDecay": { "food": 40, "care": 30, "joy": 20 },
+  "joy": { "task": 5, "firstDeposit": 5, "planKept": 10, "goal": 30 },
+  "needsFirst": { "below": 30, "joyFactor": 0.5 },
+  "stages": [
+    { "name": "Малыш", "girl": "Малышка", "stars": 0 },
+    { "name": "Подросток", "stars": 5 },
+    { "name": "Взрослый", "girl": "Взрослая", "stars": 10 }
+  ],
+  "categories": {
+    "need": { "name": "Нужное", "icon": "🥕", "hint": "еда и уход" },
+    "want": { "name": "Хочу", "icon": "🎈", "hint": "игрушки и сладости" },
+    "save": { "name": "Копилка", "icon": "🐷", "hint": "на мечту" }
+  },
+  "stats": {
+    "food": { "name": "Сытость", "icon": "🍽️" },
+    "care": { "name": "Чистота", "icon": "🛁" },
+    "joy": { "name": "Настроение", "icon": "💛" }
+  },
+  "parentBonus": {
+    "amounts": [10, 20, 30],
+    "reasons": ["Помощь по дому", "Хороший план на неделю", "Рассказ о том, как копить"]
+  }
+}
