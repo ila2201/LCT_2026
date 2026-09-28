@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "web": "node scripts/serve.js",
-    "test": "node --test tests/",
+    "test": "node --test",
     "sync": "cap sync android",
     "apk": "powershell -ExecutionPolicy Bypass -File scripts/build-apk.ps1"
   },
